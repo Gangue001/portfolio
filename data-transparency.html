@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Data Transparency for AP News: a design project by Haolin (Harley) Wu.">
+  <title>Data Transparency for AP News — Haolin (Harley) Wu</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="wordmark" href="index.html#home">Haolin (Harley) Wu<span>Interaction Design student</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation" hidden>Menu</button>
+    <nav id="navigation" aria-label="Main navigation">
+      <a href="index.html#work">Work</a><a href="index.html#about">About</a><a href="index.html#philosophy">Philosophy</a><a href="index.html#contact">Contact</a>
+    </nav>
+  </header>
+  <main id="main" class="wrap detail-page">
+    <a class="text-link back-link" href="index.html#work">← All projects</a>
+    <section class="hero project-hero" id="home" aria-labelledby="project-title">
+      <p class="eyebrow">Selected work / 01</p>
+      <h1 id="project-title">Data Transparency for AP News</h1>
+      <p class="meta">UX/UI redesign · March – April 2026</p>
+      <div class="project-overview"><p>I redesigned AP News’s cookie consent flow so readers could accept, reject, or customize their preferences when they first arrived, and revisit those choices later.</p></div>
+      <div class="project-links">
+            
+            <a class="text-link" href="https://www.figma.com/proto/OzxKVFKz649hixBpmPxjfd/DC3-final?node-id=30-70&amp;viewport=-3828%2C-154%2C0.64&amp;t=1pCbmZ0jxpszO8S3-1&amp;scaling=contain&amp;content-scaling=fixed&amp;starting-point-node-id=30%3A70&amp;page-id=0%3A1" target="_blank" rel="noopener">Figma prototype <span aria-hidden="true">↗</span></a>
+          </div>
+      <img class="project-cover" src="images/project-01/cover.webp" alt="Redesigned cookie consent dialog on the AP News homepage" loading="lazy">
+    </section>
+    <section class="section" id="process" aria-labelledby="process-title">
+      <div class="section-heading"><div><p class="eyebrow">Design process / AP News</p><h2 id="process-title">Redesigning cookie consent</h2></div></div>
+      <p class="section-intro">I looked at where AP News surfaced privacy controls, how its policy explained data use, and how other sites presented consent. I used those findings to design a clearer flow from first visit to saved preferences.</p>
+      <a class="text-link prototype-link" href="https://www.figma.com/proto/OzxKVFKz649hixBpmPxjfd/DC3-final?node-id=30-70&amp;viewport=-3828%2C-154%2C0.64&amp;t=1pCbmZ0jxpszO8S3-1&amp;scaling=contain&amp;content-scaling=fixed&amp;starting-point-node-id=30%3A70&amp;page-id=0%3A1" target="_blank" rel="noopener">Try the Data Transparency prototype ↗</a>
+      <dl class="project-facts"><div><dt>Role</dt><dd>UX/UI design</dd></div><div><dt>Timeline</dt><dd>March – April 2026</dd></div><div><dt>Tools</dt><dd>Figma</dd></div><div><dt>Team</dt><dd>Individual project</dd></div></dl>
+      <div class="process-step">
+        <span class="step-number">01</span>
+        <div>
+          <h3>Finding the privacy controls</h3>
+          <p>When I mapped the existing flow, I found the main privacy links in the footer. Some tracking preferences could be adjusted with toggles, while other requests required a separate form. The privacy policy described these options in detail, but the dense text made them difficult to find quickly.</p>
+          <button class="image-zoom case-zoom" type="button" data-image="images/project-01/process/01-research.webp" data-caption="AP News tracking toggles shown alongside separate privacy request forms" aria-label="Enlarge: AP News tracking toggles shown alongside separate privacy request forms"><img src="images/project-01/process/01-research.webp" alt="AP News tracking toggles shown alongside separate privacy request forms" loading="lazy"><span>Enlarge ↗</span></button>
+        </div>
+      </div>
+      <div class="process-step">
+        <span class="step-number">02</span>
+        <div>
+          <h3>Sketching the first visit</h3>
+          <p>After comparing consent banners and preference centers, I sketched three actions for the first visit: Accept All, Reject All, and Manage Choices. I also mapped where to confirm the choice and how readers could reopen settings later.</p>
+          <button class="image-zoom case-zoom" type="button" data-image="images/project-01/process/02-ideas.webp" data-caption="Hand-drawn sequence for cookie consent, preferences, and confirmation" aria-label="Enlarge: Hand-drawn sequence for cookie consent, preferences, and confirmation"><img src="images/project-01/process/02-ideas.webp" alt="Hand-drawn sequence for cookie consent, preferences, and confirmation" loading="lazy"><span>Enlarge ↗</span></button>
+        </div>
+      </div>
+      <div class="process-step">
+        <span class="step-number">03</span>
+        <div>
+          <h3>Organizing the preference center</h3>
+          <p>In the wireframes, I grouped settings into necessary, analytics, personalization, and advertising cookies. The final prototype uses expandable sections so readers can scan the categories and open the ones they want to understand or adjust.</p>
+          <button class="image-zoom case-zoom wireframe-image" type="button" data-image="images/project-01/process/03-prototype.webp" data-caption="Mid-fidelity wireframe showing four cookie categories and accept or reject controls" aria-label="Enlarge: Mid-fidelity wireframe showing four cookie categories and accept or reject controls"><img src="images/project-01/process/03-prototype.webp" alt="Mid-fidelity wireframe showing four cookie categories and accept or reject controls" loading="lazy"><span>Enlarge ↗</span></button>
+        </div>
+      </div>
+      <div class="process-step">
+        <span class="step-number">04</span>
+        <div>
+          <h3>Confirming and revisiting choices</h3>
+          <p>The Figma prototype shows a confirmation after preferences are saved. A persistent cookie icon reopens the settings, and a link leads to the full privacy policy for readers who want more detail.</p>
+          <button class="image-zoom case-zoom" type="button" data-image="images/project-01/process/04-final.webp" data-caption="Final Manage Cookies dialog with expandable categories and save controls" aria-label="Enlarge: Final Manage Cookies dialog with expandable categories and save controls"><img src="images/project-01/process/04-final.webp" alt="Final Manage Cookies dialog with expandable categories and save controls" loading="lazy"><span>Enlarge ↗</span></button>
+        </div>
+      </div>
+    </section>
+    <nav class="project-pagination" aria-label="Project navigation"><a href="index.html#work">← All projects</a><a href="movie-finder.html">Next: What Should I Watch? →</a></nav>
+  </main>
+  <dialog id="image-dialog" aria-label="Enlarged project image">
+    <button class="dialog-close" type="button" aria-label="Close image">Close ×</button>
+    <img id="dialog-image" alt="">
+    <p id="dialog-caption"></p>
+  </dialog>
+  <footer class="wrap site-footer"><span>© <span id="year">2026</span> Haolin (Harley) Wu</span><a href="#home">Back to top ↑</a></footer>
+</body>
+</html>

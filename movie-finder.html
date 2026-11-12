@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="What Should I Watch?: a design project by Haolin (Harley) Wu.">
+  <title>What Should I Watch? — Haolin (Harley) Wu</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="wordmark" href="index.html#home">Haolin (Harley) Wu<span>Interaction Design student</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation" hidden>Menu</button>
+    <nav id="navigation" aria-label="Main navigation">
+      <a href="index.html#work">Work</a><a href="index.html#about">About</a><a href="index.html#philosophy">Philosophy</a><a href="index.html#contact">Contact</a>
+    </nav>
+  </header>
+  <main id="main" class="wrap detail-page">
+    <a class="text-link back-link" href="index.html#work">← All projects</a>
+    <section class="hero project-hero" id="home" aria-labelledby="project-title">
+      <p class="eyebrow">Selected work / 02</p>
+      <h1 id="project-title">What Should I Watch?</h1>
+      <p class="meta">Web design &amp; development · October 2026 · With Freddy</p>
+      <div class="project-overview"><p>Freddy and I built a sci-fi movie finder that uses The Movie Database (TMDB) API. Visitors can pick from six moods or search by title, then browse posters, summaries, and movie details.</p><p>We dropped the separate genre and date filters after mapping the user flow. The final design keeps the mood selector up front and translates each mood into a set of genres for the API search.</p></div>
+      <div class="project-links">
+            <a class="text-link" href="https://gangue001.github.io/science-fiction-movie/" target="_blank" rel="noopener">Open movie finder <span aria-hidden="true">↗</span></a>
+          </div>
+      <img class="project-cover movie-cover" src="images/project-03/cover.webp" alt="Sci-fi movie finder homepage with a mood selector and title search" loading="lazy">
+    </section>
+<section class="detail-gallery"><h2>Explore the design development</h2><div class="gallery-grid"><figure><button class="image-zoom" type="button" data-image="images/project-03/user-flow.webp" data-caption="User flow comparison: original flow and simplified mood-based flow" aria-label="Enlarge: User flow comparison: original flow and simplified mood-based flow"><img src="images/project-03/user-flow.webp" alt="User flow comparison: original flow and simplified mood-based flow" loading="lazy"><span>Enlarge ↗</span></button><figcaption>User flow comparison: original flow and simplified mood-based flow</figcaption></figure><figure><button class="image-zoom" type="button" data-image="images/project-03/wireframe.webp" data-caption="Mid-fidelity wireframe: mood selector and movie recommendations" aria-label="Enlarge: Mid-fidelity wireframe: mood selector and movie recommendations"><img src="images/project-03/wireframe.webp" alt="Mid-fidelity wireframe: mood selector and movie recommendations" loading="lazy"><span>Enlarge ↗</span></button><figcaption>Mid-fidelity wireframe: mood selector and movie recommendations</figcaption></figure></div></section>
+    <nav class="project-pagination" aria-label="Project navigation"><a href="index.html#work">← All projects</a><a href="uber-eats.html">Next: Uber Eats One-Handed Interaction Redesign →</a></nav>
+  </main>
+  <dialog id="image-dialog" aria-label="Enlarged project image">
+    <button class="dialog-close" type="button" aria-label="Close image">Close ×</button>
+    <img id="dialog-image" alt="">
+    <p id="dialog-caption"></p>
+  </dialog>
+  <footer class="wrap site-footer"><span>© <span id="year">2026</span> Haolin (Harley) Wu</span><a href="#home">Back to top ↑</a></footer>
+</body>
+</html>
